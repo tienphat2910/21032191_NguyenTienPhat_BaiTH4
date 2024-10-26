@@ -244,7 +244,7 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         marginRight: 10,
     },
-    recommendImage: {
+    redcommendImage: {
         width: 130,
         height: 90,
         borderRadius: 10,
