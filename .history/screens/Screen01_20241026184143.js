@@ -159,6 +159,7 @@ const styles = StyleSheet.create({
         width: 43,
 
     },
+
     searchContainer: {
         flexDirection: 'row',
         alignItems: 'center',

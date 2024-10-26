@@ -114,7 +114,7 @@ const Screen01 = () => {
                 <FlatList data={location.slice(3, 5)}
                     keyExtractor={(item, index) => index.toString()}
                     horizontal={true}
-                    showsHorizontalScrollIndicator={false}
+                    showsHorizontalScrollIndicator={true}
                     contentContainerStyle={styles.locationList}
                     renderItem={({ item }) => (
                         <Image source={{ uri: item.image }}
@@ -159,6 +159,7 @@ const styles = StyleSheet.create({
         width: 43,
 
     },
+
     searchContainer: {
         flexDirection: 'row',
         alignItems: 'center',

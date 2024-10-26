@@ -140,132 +140,30 @@ const Screen01 = () => {
 export default Screen01
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff'
-    },
-    header: {
-        backgroundColor: '#5958b2',
-        height: 150,
-        paddingHorizontal: 40,
-        justifyContent: 'center',
-    },
-    headerTop: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        gap: 10,
-    },
-    logoIcon: {
-        width: 43,
-
-    },
-    searchContainer: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        backgroundColor: '#fff',
-        borderRadius: 5,
-        paddingHorizontal: 10,
-        height: 30,
-        flex: 1
-    },
-
-    searchIcon: {
-        width: 25,
-
-    },
-
-    welcomeContainer: {
-        flexDirection: 'row',
-        alignItems: 'center',
-    },
-    personIcon: {
-        width: 40,
-        height: 40,
-        borderRadius: 20,
-        marginLeft: 5,
-    },
-    welcomeTextContainer: {
-        marginLeft: 10
-    },
-    welcomeText: {
-        fontSize: 16,
-        color: '#fff',
-        fontWeight: 'bold'
-    },
-    nameText: {
-        fontSize: 13,
-        color: '#fff',
-    },
-    content: {
-        paddingHorizontal: 40,
-        paddingBottom: 20,
-    },
-    categoryTitle: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'space-between'
-    },
-    sectionTitle: {
-        fontSize: 15,
-        fontWeight: '500',
-    },
-    categoryList: {
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        justifyContent: 'space-between',
-        gap: 15,
-        marginTop: 20
-    },
-    categoryItem: {
-        alignItems: 'center',
-        width: '20%'
-    },
-    categoryImage: {
-        width: 70,
-        height: 70
-    },
-    categoryText: {
-        fontSize: 12,
-    },
-    locationTitle: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        marginTop: 10
-    },
-    locationList: {
-        marginTop: 10,
-    },
-    locationImage: {
-        width: 82,
-        height: 90,
-        borderRadius: 10,
-        marginRight: 10,
-    },
-    recommendImage: {
-        width: 130,
-        height: 90,
-        borderRadius: 10,
-        marginRight: 10,
-    },
-    footer: {
-        backgroundColor: '#5958b2',
-        height: 90,
-        paddingHorizontal: 40,
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'space-between'
-    },
-    footerItem: {
-        alignItems: 'center'
-    },
-    footerIcon: {
-        width: 30, height: 30
-    },
-    footerText: {
-        color: '#fff',
-        fontSize: 12,
-        marginTop: 3,
-    }
-})
+    container: { flex: 1, backgroundColor: '#fff' },
+    header: { backgroundColor: '#5958b2', height: 150, paddingHorizontal: 40, justifyContent: 'center' },
+    headerTop: { flexDirection: 'row', alignItems: 'center', gap: 10 },
+    logoIcon: { width: 43 },
+    searchContainer: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', backgroundColor: '#fff', borderRadius: 5, paddingHorizontal: 10, height: 30, flex: 1 },
+    searchIcon: { width: 25 },
+    welcomeContainer: { flexDirection: 'row', alignItems: 'center' },
+    personIcon: { width: 40, height: 40, borderRadius: 20, marginLeft: 5 },
+    welcomeTextContainer: { marginLeft: 10 },
+    welcomeText: { fontSize: 16, color: '#fff', fontWeight: 'bold' },
+    nameText: { fontSize: 13, color: '#fff' },
+    content: { paddingHorizontal: 40, paddingBottom: 20 },
+    categoryTitle: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+    sectionTitle: { fontSize: 15, fontWeight: '500' },
+    categoryList: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', gap: 15, marginTop: 20 },
+    categoryItem: { alignItems: 'center', width: '20%' },
+    categoryImage: { width: 70, height: 70 },
+    categoryText: { fontSize: 12 },
+    locationTitle: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: 10 },
+    locationList: { marginTop: 10 },
+    locationImage: { width: 82, height: 90, borderRadius: 10, marginRight: 10 },
+    recommendImage: { width: 130, height: 90, borderRadius: 10, marginRight: 10 },
+    footer: { backgroundColor: '#5958b2', height: 90, paddingHorizontal: 40, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+    footerItem: { alignItems: 'center' },
+    footerIcon: { width: 30, height: 30 },
+    footerText: { color: '#fff', fontSize: 12, marginTop: 3 }
+});
